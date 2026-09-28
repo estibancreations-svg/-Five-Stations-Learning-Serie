@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-28T11:27:28.227863+00:00",
+  "generated_at_utc": "2026-09-28T11:28:24.454792+00:00",
   "package_root": "five-stations",
   "source_records": {
     "episode_objects": 150,
@@ -37,10 +37,12 @@
     "scripts": [
       "build_catalog.py",
       "episode_source.py",
-      "runway_build_v2.py"
+      "runway_build_v2.py",
+      "scripts/build_creation_inventory.py"
     ],
     "documentation": [
       "README.md",
+      "creation_inventory.md",
       "screenplay_excerpts.md"
     ]
   },
@@ -169,8 +171,8 @@
     },
     {
       "path": "scripts/build_creation_inventory.py",
-      "bytes": 6237,
-      "sha256": "3ba6c7c8775f70dc12babe62db3dc967e31a9565b0dcf7ce856049343bb05080"
+      "bytes": 6512,
+      "sha256": "599bd68545169239e5a7f48f9466efbc4af1db114cb3c4a1e42771fd4167e2a8"
     }
   ],
   "qc_result": "PASS_WITH_HOLDS: inventory is internally consistent; curriculum, character, media, rights and owner approval gates remain open"

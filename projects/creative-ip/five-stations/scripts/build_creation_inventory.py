@@ -56,7 +56,7 @@ def build(root: Path) -> dict:
             "all_episode_prompt_file": (root / "runway_prompts_v2" / "02_all_episodes.txt").exists(),
             "manifest_file": manifest_path.exists(),
             "screenplay_excerpt_file": (root / "screenplay_excerpts.md").exists(),
-            "scripts": sorted(path.name for path in root.glob("*.py")),
+            "scripts": sorted(path.relative_to(root).as_posix() for path in root.rglob("*.py")),
             "documentation": sorted(path.name for path in root.glob("*.md")),
         },
         "manifest_comparison": {
@@ -116,7 +116,13 @@ def markdown(inventory: dict) -> str:
         "",
         "This inventory counts files and records. It does not convert prompts into finished episodes or infer missing source material.",
         "",
+        "## Complete created-file list",
+        "",
+        "| Path | Bytes | SHA-256 |",
+        "|---|---:|---|",
     ])
+    lines.extend(f"| `{item['path']}` | {item['bytes']} | `{item['sha256']}` |" for item in inventory["files"])
+    lines.append("")
     return "\n".join(lines)
 
 
