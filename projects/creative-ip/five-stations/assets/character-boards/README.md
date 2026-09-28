@@ -10,4 +10,6 @@ These five v1 boards are generated reference candidates. Empty nameplates are in
 | `doodle-dreamers-board-v1.png` | Doodle, Melody, Splash, Echo, Compass |
 | `power-pals-board-v1.png` | Paige, Max, Lina, Kai, Zoe |
 
-Approval state: `reference candidate — human visual review required`.
+Approval state: `OWNER APPROVED — first-run calibration reference`.
+
+Approval record: The Architect approved these five board compositions on 2026-09-28. This approval authorizes their use as the first-run visual references. It does not yet mark every character as pilot-locked; turnaround sheets and test-scene continuity checks remain required.
