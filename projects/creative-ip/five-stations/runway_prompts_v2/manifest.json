@@ -1,0 +1,17 @@
+{
+  "episodes": 150,
+  "image_prompts": 600,
+  "by_season": {
+    "2": 75,
+    "3": 75
+  },
+  "status": "development prompts; no media generated, scripts or lessons approved",
+  "requires": [
+    "character design lock",
+    "curriculum review",
+    "screenplay and animatic",
+    "human approval",
+    "licensed or owned audio",
+    "platform policy review"
+  ]
+}
