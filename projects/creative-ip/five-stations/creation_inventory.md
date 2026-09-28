@@ -1,12 +1,12 @@
 # Five Stations creation inventory
 
-Generated UTC: `2026-09-28T20:53:33.743856+00:00`
+Generated UTC: `2026-09-28T21:03:51.942705+00:00`
 
 ## What exists
 
 - `150` episode objects in `episodes.json`.
 - `12` generated prompt text files, including character, all-episode and series/season prompt sets.
-- `32` tracked package files in this inventory scope.
+- `39` tracked package files in this inventory scope.
 - Scripts: `build_catalog.py`, `episode_source.py`, `runway_build_v2.py`, `scripts/build_creation_inventory.py`.
 - Screenplay excerpts present: `True`.
 
@@ -43,7 +43,7 @@ This inventory counts files and records. It does not convert prompts into finish
 | Path | Bytes | SHA-256 |
 |---|---:|---|
 | `.gitignore` | 13 | `32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b` |
-| `README.md` | 9906 | `54f3ca808e6e0d2b22391d7ee8ad0f57d95fd878fc3f4ec7d27ce09d9821fd6d` |
+| `README.md` | 10261 | `9b4e1b949a03da1bf0346fabe3d2ca6407a3aa1cfb3aff0151aab2a7d41152db` |
 | `assets/character-boards/README.md` | 932 | `b5daedd5e08983fd49ba42f0198831f62eb763004fe070727c4073c64be639dd` |
 | `assets/character-boards/doodle-dreamers-board-v1.png` | 2826095 | `1b72ec3124b6033d88336d412b83c7cbbe7ffe7810582a1ccff89ad351a573c8` |
 | `assets/character-boards/momo-moonbeans-board-v1.png` | 2217031 | `456a1c8eb25441a870ce171ebf1c2f44942e633e0ac2df69e6cee0b9d65cdc7d` |
@@ -74,3 +74,11 @@ This inventory counts files and records. It does not convert prompts into finish
 | `runway_prompts_v2/manifest.json` | 365 | `c773cb01e3eeed4223c7192af1127e146127ad31d3b4093c11900e2cac4a2d0a` |
 | `screenplay_excerpts.md` | 4207 | `31edbfb8bca3363c9309ae4cd0d9e5afd239f90bbc98995aa456e4b8cc4d3f92` |
 | `scripts/build_creation_inventory.py` | 6512 | `599bd68545169239e5a7f48f9466efbc4af1db114cb3c4a1e42771fd4167e2a8` |
+| `test-runs/character-continuity/README.md` | 2828 | `3eacebd48e6a8f3bf6bad43f38ef99039ae70cd4fc576d627b9ab0eba5c075d6` |
+| `test-runs/character-continuity/doodle-test-run-v1.png` | 2771399 | `4f0c0be5af36bd7d439857a12788dc68e0d3e753334bf9b59e1d75bb413b4458` |
+| `test-runs/character-continuity/momo-test-run-v1.png` | 2418763 | `5f286d90bed71a348367f6746e4ce9ee59ef2dd48c69178cfc895ee6347efbdd` |
+| `test-runs/character-continuity/powerpals-test-run-v1.png` | 2430129 | `d42b430d9dcaa0610f2d31af21d253346d90df3e2b2937acb9f01dcbe2531dd7` |
+| `test-runs/character-continuity/rocket-test-run-v1.png` | 2520287 | `43f550830a2014ce734f9b03b7cc3b707f75705e84f42eb33d5fc125e474cd53` |
+| `test-runs/character-continuity/test-run-manifest.json` | 2721 | `e1bd0a015d1181e4adfcb51992dfdf5d4ec164992d3fa8715442144f97edb1c5` |
+| `test-runs/character-continuity/yeti-test-run-v1.png` | 2386394 | `e040256b91a74630cefaa158b549d6b551d64f3d13a4757d13964b3ae6639866` |
+

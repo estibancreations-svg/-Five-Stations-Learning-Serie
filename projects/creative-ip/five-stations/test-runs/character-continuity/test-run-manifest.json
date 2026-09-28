@@ -1,0 +1,52 @@
+{
+  "run_id": "character-continuity-calibration-2026-09-28-v1",
+  "date": "2026-09-28",
+  "mode": "supervised_calibration",
+  "overall_status": "PASS_WITH_HOLDS",
+  "pilot_gate": "not_enabled",
+  "reference_policy": "owner-approved character boards; still-image continuity only",
+  "runs": [
+    {
+      "station": "momo",
+      "reference_board": "assets/character-boards/momo-character-board.png",
+      "output": "projects/creative-ip/five-stations/test-runs/character-continuity/momo-test-run-v1.png",
+      "objective": "Test the Momo ensemble in Moonbean Meadow around a glowing moon rock.",
+      "status": "verified_with_hold",
+      "holds": ["still-image only", "multi-shot continuity pending", "human owner review pending"]
+    },
+    {
+      "station": "rocket",
+      "reference_board": "assets/character-boards/rocket-character-board.png",
+      "output": "projects/creative-ip/five-stations/test-runs/character-continuity/rocket-test-run-v1.png",
+      "objective": "Test the Rocket ensemble using a safe lever demonstration at Tiny Town.",
+      "status": "verified_with_hold",
+      "holds": ["still-image only", "multi-shot continuity pending", "human owner review pending"]
+    },
+    {
+      "station": "yeti",
+      "reference_board": "assets/character-boards/yeti-character-board.png",
+      "output": "projects/creative-ip/five-stations/test-runs/character-continuity/yeti-test-run-v1.png",
+      "objective": "Test the Yeti ensemble comparing ice-cream samples in Snack Mountain Kitchen.",
+      "status": "verified_with_hold",
+      "holds": ["still-image only", "multi-shot continuity pending", "human owner review pending"]
+    },
+    {
+      "station": "doodle",
+      "reference_board": "assets/character-boards/doodle-character-board.png",
+      "output": "projects/creative-ip/five-stations/test-runs/character-continuity/doodle-test-run-v1.png",
+      "objective": "Test the Dreamers ensemble comparing paper airplanes in Dreamtopia.",
+      "status": "verified_with_hold",
+      "holds": ["still-image only", "multi-shot continuity pending", "human owner review pending"]
+    },
+    {
+      "station": "powerpals",
+      "reference_board": "assets/character-boards/powerpals-character-board.png",
+      "output": "projects/creative-ip/five-stations/test-runs/character-continuity/powerpals-test-run-v1.png",
+      "objective": "Test the Power Pals ensemble assembling a square geometry gate.",
+      "status": "verified_with_hold",
+      "holds": ["still-image only", "multi-shot continuity pending", "human owner review pending"]
+    }
+  ],
+  "not_tested": ["animation", "shot-to-shot continuity", "voiceover", "captions", "exact text compositing", "Runway timing", "production cost"]
+}
+
