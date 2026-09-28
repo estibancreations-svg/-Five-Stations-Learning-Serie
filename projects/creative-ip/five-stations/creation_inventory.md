@@ -1,12 +1,12 @@
 # Five Stations creation inventory
 
-Generated UTC: `2026-09-28T12:00:21.682720+00:00`
+Generated UTC: `2026-09-28T12:02:04.597303+00:00`
 
 ## What exists
 
 - `150` episode objects in `episodes.json`.
 - `12` generated prompt text files, including character, all-episode and series/season prompt sets.
-- `31` tracked package files in this inventory scope.
+- `32` tracked package files in this inventory scope.
 - Scripts: `build_catalog.py`, `episode_source.py`, `runway_build_v2.py`, `scripts/build_creation_inventory.py`.
 - Screenplay excerpts present: `True`.
 
@@ -52,6 +52,7 @@ This inventory counts files and records. It does not convert prompts into finish
 | `assets/character-boards/yum-yum-yetis-board-v1.png` | 2315148 | `ed04647e75cd0b93536b7e0b45383fa3c9a4ea28e6ae81ddd3aca778bf3c7af7` |
 | `build_catalog.py` | 1191 | `f964cea6955aa99f9f1794d0a42050eb2cbc9cd9d5eba54b8ea8788d8126cac5` |
 | `docs/production/character-board-and-pilot-lock.md` | 3964 | `844011be0403e5a79d769d8fd19c679a1b69806ecdf49e1f64e0a31826360610` |
+| `docs/production/character-board-first-run-qc.md` | 1778 | `0dac396a01600c49b2e711c7b033613f1d67ae0bb895d52a918001c8f6d19036` |
 | `docs/production/letter-lock-and-exact-text.md` | 1755 | `ffd52a482e28b2ee2cf6609e82f766ec82d4b573befbdc80080215565cb7acbb` |
 | `docs/quality-control/delivery-package-report-template.md` | 874 | `75a23c2214e492b68efa7a8b89d325a21ceaed651970f09ec26bfa193fb76706` |
 | `docs/quality-control/pipeline-assistant-director-qc-protocol.md` | 5175 | `30c67e74457c851522058e26f546e454fd5c78c5e54a262d464e86b498adee2c` |

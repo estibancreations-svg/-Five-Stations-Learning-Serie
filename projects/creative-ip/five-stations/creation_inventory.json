@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-28T12:00:21.682720+00:00",
+  "generated_at_utc": "2026-09-28T12:02:04.597303+00:00",
   "package_root": "five-stations",
   "source_records": {
     "episode_objects": 150,
@@ -28,7 +28,7 @@
     }
   },
   "created_artifacts": {
-    "tracked_files": 31,
+    "tracked_files": 32,
     "prompt_text_files": 12,
     "character_prompt_file": true,
     "all_episode_prompt_file": true,
@@ -108,6 +108,11 @@
       "path": "docs/production/character-board-and-pilot-lock.md",
       "bytes": 3964,
       "sha256": "844011be0403e5a79d769d8fd19c679a1b69806ecdf49e1f64e0a31826360610"
+    },
+    {
+      "path": "docs/production/character-board-first-run-qc.md",
+      "bytes": 1778,
+      "sha256": "0dac396a01600c49b2e711c7b033613f1d67ae0bb895d52a918001c8f6d19036"
     },
     {
       "path": "docs/production/letter-lock-and-exact-text.md",
