@@ -62,6 +62,10 @@ Set the audience truthfully as Made for Kids where the intended audience is chil
 4. Budget and generate only approved shots; record actual cost, usable footage, and review outcomes.
 5. Publish a small pilot after captions, audio rights, platform audience settings, and owner approval; learn from comprehension and retention data before scaling.
 
+## Final Quality Control and delivery
+
+Run `python3 scripts/build_creation_inventory.py` after any source or generated-file change. It writes `creation_inventory.json` and `creation_inventory.md`, counts the records directly, compares them with the manifest, records file hashes, and reports holds. The Pipeline Assistant Director protocol in `docs/quality-control/pipeline-assistant-director-qc-protocol.md` is the final Q&A gate. Its answers, evidence, owners and next actions travel with every VisionWeaver delivery package. The end-user view is defined there as Project Overview → World Map → Season Map → Episode Room → Assistant Director Panel → Delivery Package.
+
 ## Sources for operational checks
 
 - [Runway Gen-4 image prompting](https://help.runwayml.com/hc/en-us/articles/35694045317139-Gen-4-Image-Prompting-Guide) (positive prompts; negative phrasing can be counterproductive).

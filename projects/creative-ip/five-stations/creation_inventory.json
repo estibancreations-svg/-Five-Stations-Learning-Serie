@@ -1,0 +1,177 @@
+{
+  "generated_at_utc": "2026-09-28T11:27:28.227863+00:00",
+  "package_root": "five-stations",
+  "source_records": {
+    "episode_objects": 150,
+    "by_series": {
+      "doodle": 30,
+      "momo": 30,
+      "powerpals": 30,
+      "rocket": 30,
+      "yeti": 30
+    },
+    "by_season": {
+      "2": 75,
+      "3": 75
+    },
+    "by_series_and_season": {
+      "doodle/s2": 15,
+      "doodle/s3": 15,
+      "momo/s2": 15,
+      "momo/s3": 15,
+      "powerpals/s2": 15,
+      "powerpals/s3": 15,
+      "rocket/s2": 15,
+      "rocket/s3": 15,
+      "yeti/s2": 15,
+      "yeti/s3": 15
+    }
+  },
+  "created_artifacts": {
+    "tracked_files": 23,
+    "prompt_text_files": 12,
+    "character_prompt_file": true,
+    "all_episode_prompt_file": true,
+    "manifest_file": true,
+    "screenplay_excerpt_file": true,
+    "scripts": [
+      "build_catalog.py",
+      "episode_source.py",
+      "runway_build_v2.py"
+    ],
+    "documentation": [
+      "README.md",
+      "screenplay_excerpts.md"
+    ]
+  },
+  "manifest_comparison": {
+    "manifest_episode_count": 150,
+    "manifest_prompt_count": 600,
+    "episode_count_matches_manifest": true
+  },
+  "production_status": {
+    "development_catalog": true,
+    "finished_media_generated": false,
+    "finished_episodes_approved": false,
+    "season_1_source_present": false,
+    "claims_are_delivery_ready": false
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 13,
+      "sha256": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9216,
+      "sha256": "bd3140d3faf90000bca3318c8c2352b853a109b276e840c7e85b38eddf02001a"
+    },
+    {
+      "path": "build_catalog.py",
+      "bytes": 1191,
+      "sha256": "f964cea6955aa99f9f1794d0a42050eb2cbc9cd9d5eba54b8ea8788d8126cac5"
+    },
+    {
+      "path": "docs/quality-control/delivery-package-report-template.md",
+      "bytes": 874,
+      "sha256": "75a23c2214e492b68efa7a8b89d325a21ceaed651970f09ec26bfa193fb76706"
+    },
+    {
+      "path": "docs/quality-control/pipeline-assistant-director-qc-protocol.md",
+      "bytes": 5175,
+      "sha256": "30c67e74457c851522058e26f546e454fd5c78c5e54a262d464e86b498adee2c"
+    },
+    {
+      "path": "episode_source.py",
+      "bytes": 14602,
+      "sha256": "67f51fbbcc851a0ac4fdabae80aad88d197ae122d89968e7367c7f912ef5a81f"
+    },
+    {
+      "path": "episodes.json",
+      "bytes": 79215,
+      "sha256": "243271cd16df2ef0ff8a953769dcfc48d4edc88687fddc9ad7591f31fa022012"
+    },
+    {
+      "path": "runway_build_v2.py",
+      "bytes": 7640,
+      "sha256": "7611607e97815601ac1c13b2bc4182ab348afa97fc8bb2c3a423cbaa6543f5bd"
+    },
+    {
+      "path": "runway_prompts_v2/01_characters.txt",
+      "bytes": 2373,
+      "sha256": "e7d7362e0ad61eb7287a920c6c38ddda77211a3c81cc24652b714a6da9d08afb"
+    },
+    {
+      "path": "runway_prompts_v2/02_all_episodes.txt",
+      "bytes": 502313,
+      "sha256": "6436b194e0191b98b92c2ca885c207cdb7dfffa2b7bf8b273fe601952e082774"
+    },
+    {
+      "path": "runway_prompts_v2/03_doodle_s2.txt",
+      "bytes": 46117,
+      "sha256": "c0614158d1ce27c2e164170498f76e81cba36a5c39e21656780f6875c1a8a686"
+    },
+    {
+      "path": "runway_prompts_v2/03_doodle_s3.txt",
+      "bytes": 47563,
+      "sha256": "0eb548d17fbc6edad0b482150e295200b030e324955fc2514d9876599a562eb4"
+    },
+    {
+      "path": "runway_prompts_v2/03_momo_s2.txt",
+      "bytes": 51223,
+      "sha256": "735daca57c23c404394a21dda3f3c6f166efd6d015d28b089416cbccf8414960"
+    },
+    {
+      "path": "runway_prompts_v2/03_momo_s3.txt",
+      "bytes": 53393,
+      "sha256": "c51c3074e34291ee47e9843c757e894f7828147c86555e7c13a457acad925591"
+    },
+    {
+      "path": "runway_prompts_v2/03_powerpals_s2.txt",
+      "bytes": 55905,
+      "sha256": "fcb5d28ddc0f6e26836cc18e07d86b358083509b8c2275a1db35e65c02c01ca1"
+    },
+    {
+      "path": "runway_prompts_v2/03_powerpals_s3.txt",
+      "bytes": 57227,
+      "sha256": "87d2e34b765c8d0cc49a9bcf3b7e02cfe2575b5b4759dbb8004412e32b8c9209"
+    },
+    {
+      "path": "runway_prompts_v2/03_rocket_s2.txt",
+      "bytes": 51907,
+      "sha256": "058c3b733dade0b3b7027bb23fd11ce2bfe42027f9c16aa432367f17011211b1"
+    },
+    {
+      "path": "runway_prompts_v2/03_rocket_s3.txt",
+      "bytes": 53203,
+      "sha256": "4c27a5ed29babae581663938afba6497c584c1f296d2c11c54a5d450b47824ab"
+    },
+    {
+      "path": "runway_prompts_v2/03_yeti_s2.txt",
+      "bytes": 42323,
+      "sha256": "7272e60f5b0fba81a72a69ca8455558870ef7d8cf1c9c25e69a2b4a8e9f2e767"
+    },
+    {
+      "path": "runway_prompts_v2/03_yeti_s3.txt",
+      "bytes": 43941,
+      "sha256": "e233b6c35c80853e2920fea55b60a559e030fbacf71277a302f9eb046faa9985"
+    },
+    {
+      "path": "runway_prompts_v2/manifest.json",
+      "bytes": 365,
+      "sha256": "c773cb01e3eeed4223c7192af1127e146127ad31d3b4093c11900e2cac4a2d0a"
+    },
+    {
+      "path": "screenplay_excerpts.md",
+      "bytes": 4207,
+      "sha256": "31edbfb8bca3363c9309ae4cd0d9e5afd239f90bbc98995aa456e4b8cc4d3f92"
+    },
+    {
+      "path": "scripts/build_creation_inventory.py",
+      "bytes": 6237,
+      "sha256": "3ba6c7c8775f70dc12babe62db3dc967e31a9565b0dcf7ce856049343bb05080"
+    }
+  ],
+  "qc_result": "PASS_WITH_HOLDS: inventory is internally consistent; curriculum, character, media, rights and owner approval gates remain open"
+}
