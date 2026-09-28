@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-28T11:28:24.454792+00:00",
+  "generated_at_utc": "2026-09-28T12:00:21.682720+00:00",
   "package_root": "five-stations",
   "source_records": {
     "episode_objects": 150,
@@ -28,7 +28,7 @@
     }
   },
   "created_artifacts": {
-    "tracked_files": 23,
+    "tracked_files": 31,
     "prompt_text_files": 12,
     "character_prompt_file": true,
     "all_episode_prompt_file": true,
@@ -66,13 +66,53 @@
     },
     {
       "path": "README.md",
-      "bytes": 9216,
-      "sha256": "bd3140d3faf90000bca3318c8c2352b853a109b276e840c7e85b38eddf02001a"
+      "bytes": 9906,
+      "sha256": "54f3ca808e6e0d2b22391d7ee8ad0f57d95fd878fc3f4ec7d27ce09d9821fd6d"
+    },
+    {
+      "path": "assets/character-boards/README.md",
+      "bytes": 655,
+      "sha256": "8081ea77f10f16333ce457f3cba27475f8d25ada5a6c5ce90314c49fca7cf51a"
+    },
+    {
+      "path": "assets/character-boards/doodle-dreamers-board-v1.png",
+      "bytes": 2826095,
+      "sha256": "1b72ec3124b6033d88336d412b83c7cbbe7ffe7810582a1ccff89ad351a573c8"
+    },
+    {
+      "path": "assets/character-boards/momo-moonbeans-board-v1.png",
+      "bytes": 2217031,
+      "sha256": "456a1c8eb25441a870ce171ebf1c2f44942e633e0ac2df69e6cee0b9d65cdc7d"
+    },
+    {
+      "path": "assets/character-boards/power-pals-board-v1.png",
+      "bytes": 2415388,
+      "sha256": "a09bad2004536dd59a832c11751606452ac3c05aee2af1ce571121e95ded5e2e"
+    },
+    {
+      "path": "assets/character-boards/rocket-rivet-board-v1.png",
+      "bytes": 2379264,
+      "sha256": "8b63f6927c6cfb81986bde5c418e904c85b39990af5f742e73ecf3267d7fe0a8"
+    },
+    {
+      "path": "assets/character-boards/yum-yum-yetis-board-v1.png",
+      "bytes": 2315148,
+      "sha256": "ed04647e75cd0b93536b7e0b45383fa3c9a4ea28e6ae81ddd3aca778bf3c7af7"
     },
     {
       "path": "build_catalog.py",
       "bytes": 1191,
       "sha256": "f964cea6955aa99f9f1794d0a42050eb2cbc9cd9d5eba54b8ea8788d8126cac5"
+    },
+    {
+      "path": "docs/production/character-board-and-pilot-lock.md",
+      "bytes": 3964,
+      "sha256": "844011be0403e5a79d769d8fd19c679a1b69806ecdf49e1f64e0a31826360610"
+    },
+    {
+      "path": "docs/production/letter-lock-and-exact-text.md",
+      "bytes": 1755,
+      "sha256": "ffd52a482e28b2ee2cf6609e82f766ec82d4b573befbdc80080215565cb7acbb"
     },
     {
       "path": "docs/quality-control/delivery-package-report-template.md",

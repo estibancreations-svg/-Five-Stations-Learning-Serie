@@ -66,6 +66,10 @@ Set the audience truthfully as Made for Kids where the intended audience is chil
 
 Run `python3 scripts/build_creation_inventory.py` after any source or generated-file change. It writes `creation_inventory.json` and `creation_inventory.md`, counts the records directly, compares them with the manifest, records file hashes, and reports holds. The Pipeline Assistant Director protocol in `docs/quality-control/pipeline-assistant-director-qc-protocol.md` is the final Q&A gate. Its answers, evidence, owners and next actions travel with every VisionWeaver delivery package. The end-user view is defined there as Project Overview → World Map → Season Map → Episode Room → Assistant Director Panel → Delivery Package.
 
+## Character, lettering and pilot locks
+
+The first-run character boards are in `assets/character-boards/`. Their panel order and approval process are defined in `docs/production/character-board-and-pilot-lock.md`. Exact words, phonemes, numbers, formulas, captions and nameplates use `docs/production/letter-lock-and-exact-text.md`; they are composited and proofread after image generation. Pilot mode can automate repeatable stages after the first run is signed, but it pauses on new characters, exact text, factual claims, failed continuity, rights, cost, safety and final owner approval. ElevenLabs receives only an approved script, pronunciation guide, voice ID and delivery settings.
+
 ## Sources for operational checks
 
 - [Runway Gen-4 image prompting](https://help.runwayml.com/hc/en-us/articles/35694045317139-Gen-4-Image-Prompting-Guide) (positive prompts; negative phrasing can be counterproductive).

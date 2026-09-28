@@ -1,12 +1,12 @@
 # Five Stations creation inventory
 
-Generated UTC: `2026-09-28T11:28:24.454792+00:00`
+Generated UTC: `2026-09-28T12:00:21.682720+00:00`
 
 ## What exists
 
 - `150` episode objects in `episodes.json`.
 - `12` generated prompt text files, including character, all-episode and series/season prompt sets.
-- `23` tracked package files in this inventory scope.
+- `31` tracked package files in this inventory scope.
 - Scripts: `build_catalog.py`, `episode_source.py`, `runway_build_v2.py`, `scripts/build_creation_inventory.py`.
 - Screenplay excerpts present: `True`.
 
@@ -43,8 +43,16 @@ This inventory counts files and records. It does not convert prompts into finish
 | Path | Bytes | SHA-256 |
 |---|---:|---|
 | `.gitignore` | 13 | `32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b` |
-| `README.md` | 9216 | `bd3140d3faf90000bca3318c8c2352b853a109b276e840c7e85b38eddf02001a` |
+| `README.md` | 9906 | `54f3ca808e6e0d2b22391d7ee8ad0f57d95fd878fc3f4ec7d27ce09d9821fd6d` |
+| `assets/character-boards/README.md` | 655 | `8081ea77f10f16333ce457f3cba27475f8d25ada5a6c5ce90314c49fca7cf51a` |
+| `assets/character-boards/doodle-dreamers-board-v1.png` | 2826095 | `1b72ec3124b6033d88336d412b83c7cbbe7ffe7810582a1ccff89ad351a573c8` |
+| `assets/character-boards/momo-moonbeans-board-v1.png` | 2217031 | `456a1c8eb25441a870ce171ebf1c2f44942e633e0ac2df69e6cee0b9d65cdc7d` |
+| `assets/character-boards/power-pals-board-v1.png` | 2415388 | `a09bad2004536dd59a832c11751606452ac3c05aee2af1ce571121e95ded5e2e` |
+| `assets/character-boards/rocket-rivet-board-v1.png` | 2379264 | `8b63f6927c6cfb81986bde5c418e904c85b39990af5f742e73ecf3267d7fe0a8` |
+| `assets/character-boards/yum-yum-yetis-board-v1.png` | 2315148 | `ed04647e75cd0b93536b7e0b45383fa3c9a4ea28e6ae81ddd3aca778bf3c7af7` |
 | `build_catalog.py` | 1191 | `f964cea6955aa99f9f1794d0a42050eb2cbc9cd9d5eba54b8ea8788d8126cac5` |
+| `docs/production/character-board-and-pilot-lock.md` | 3964 | `844011be0403e5a79d769d8fd19c679a1b69806ecdf49e1f64e0a31826360610` |
+| `docs/production/letter-lock-and-exact-text.md` | 1755 | `ffd52a482e28b2ee2cf6609e82f766ec82d4b573befbdc80080215565cb7acbb` |
 | `docs/quality-control/delivery-package-report-template.md` | 874 | `75a23c2214e492b68efa7a8b89d325a21ceaed651970f09ec26bfa193fb76706` |
 | `docs/quality-control/pipeline-assistant-director-qc-protocol.md` | 5175 | `30c67e74457c851522058e26f546e454fd5c78c5e54a262d464e86b498adee2c` |
 | `episode_source.py` | 14602 | `67f51fbbcc851a0ac4fdabae80aad88d197ae122d89968e7367c7f912ef5a81f` |
