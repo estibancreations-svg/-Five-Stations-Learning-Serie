@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-28T21:03:51.942705+00:00",
+  "generated_at_utc": "2026-09-29T01:05:33.516742+00:00",
   "package_root": "five-stations",
   "source_records": {
     "episode_objects": 150,
@@ -28,7 +28,7 @@
     }
   },
   "created_artifacts": {
-    "tracked_files": 39,
+    "tracked_files": 56,
     "prompt_text_files": 12,
     "character_prompt_file": true,
     "all_episode_prompt_file": true,
@@ -66,8 +66,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 10261,
-      "sha256": "9b4e1b949a03da1bf0346fabe3d2ca6407a3aa1cfb3aff0151aab2a7d41152db"
+      "bytes": 10570,
+      "sha256": "54af36a7ea03af00107c7363884e7b300f70c4267c2b112ce0ebd95aef12edf6"
     },
     {
       "path": "assets/character-boards/README.md",
@@ -253,6 +253,91 @@
       "path": "test-runs/character-continuity/yeti-test-run-v1.png",
       "bytes": 2386394,
       "sha256": "e040256b91a74630cefaa158b549d6b551d64f3d13a4757d13964b3ae6639866"
+    },
+    {
+      "path": "test-runs/continuity-v1/README.md",
+      "bytes": 2284,
+      "sha256": "10d01db0c45a2d6e02af03d5e0a86ebd3f6712db051c46d6955bcbb3f736abd5"
+    },
+    {
+      "path": "test-runs/continuity-v1/continuity-manifest.json",
+      "bytes": 1481,
+      "sha256": "912f73a72dae4c9e2ab1a02425c867418a525cdbf9161462877057c94a8e17d5"
+    },
+    {
+      "path": "test-runs/continuity-v1/doodle/01-opening.png",
+      "bytes": 2827144,
+      "sha256": "b72ac45a37786a68a33def62474ef5b0a294b03b192a89bdc4736f7d3b83e352"
+    },
+    {
+      "path": "test-runs/continuity-v1/doodle/02-action.png",
+      "bytes": 2699261,
+      "sha256": "e7dd1b997932b09e4646c2c507f02870a7915297796b18516d657549e99911eb"
+    },
+    {
+      "path": "test-runs/continuity-v1/doodle/03-closing.png",
+      "bytes": 2841612,
+      "sha256": "9e9d11020199e856138ead1113dfe6c0aab0ba6cfe79d1076bccb9aebc68d6c8"
+    },
+    {
+      "path": "test-runs/continuity-v1/momo/01-opening.png",
+      "bytes": 2557508,
+      "sha256": "6c0d66de3795d3c10f24772fa410b46a48c9000fa63250e7067aff9cf436c257"
+    },
+    {
+      "path": "test-runs/continuity-v1/momo/02-action.png",
+      "bytes": 2453257,
+      "sha256": "aaab29b25cd8983b33f4b068004a1abbfd29379e0536b69e0e10b6f50de4bf79"
+    },
+    {
+      "path": "test-runs/continuity-v1/momo/03-closing.png",
+      "bytes": 2402190,
+      "sha256": "f0ea2e8a26e662ac0bc630ef0a90b154a600d5db53403022fa0e50fba6e86d10"
+    },
+    {
+      "path": "test-runs/continuity-v1/powerpals/01-opening.png",
+      "bytes": 2716500,
+      "sha256": "52819c6f3097908bad0eb87cc9b771c5abfb8bce0ceea346a4c493557b107a15"
+    },
+    {
+      "path": "test-runs/continuity-v1/powerpals/02-action.png",
+      "bytes": 2473513,
+      "sha256": "857273efbf152f50c65d501f4c33a573ba19c724e9dfc342a71296ddb3e2e0e8"
+    },
+    {
+      "path": "test-runs/continuity-v1/powerpals/03-closing.png",
+      "bytes": 2521332,
+      "sha256": "cdcc05c800c300e502d798c9c21c2ae31ed05eb3727c49cb4b5b67b694cabbd2"
+    },
+    {
+      "path": "test-runs/continuity-v1/rocket/01-opening.png",
+      "bytes": 2475240,
+      "sha256": "cef1fb296475dc05ee5657313f71507c0da57b6dd5231fe5d56b12fb5a6ef3e8"
+    },
+    {
+      "path": "test-runs/continuity-v1/rocket/02-action.png",
+      "bytes": 2601409,
+      "sha256": "f11cdae4cf84c0839801053000ccb8e716d8d2afc8946ba1e863cdcbc320112f"
+    },
+    {
+      "path": "test-runs/continuity-v1/rocket/03-closing.png",
+      "bytes": 2651670,
+      "sha256": "6fdceb30e01ecf1d170edba7ca30fd00abc2f62585948084b629465a5c9b6593"
+    },
+    {
+      "path": "test-runs/continuity-v1/yeti/01-opening.png",
+      "bytes": 2411057,
+      "sha256": "a3d8d78a88bcd8e097b0405a3783da30d16c31d0f47c82c5ebe3aad0f1038132"
+    },
+    {
+      "path": "test-runs/continuity-v1/yeti/02-action.png",
+      "bytes": 2349758,
+      "sha256": "9162da206ddaf83da7c56477942e12121d0d377394c89f4d9da7acd236bd70d9"
+    },
+    {
+      "path": "test-runs/continuity-v1/yeti/03-closing.png",
+      "bytes": 2283651,
+      "sha256": "d76f55598bae610b300e358d36953b73479c16bf96f416b95ee9cc7022b1e90e"
     }
   ],
   "qc_result": "PASS_WITH_HOLDS: inventory is internally consistent; curriculum, character, media, rights and owner approval gates remain open"

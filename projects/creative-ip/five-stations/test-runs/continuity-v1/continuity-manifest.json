@@ -1,0 +1,17 @@
+{
+  "run_id": "three-shot-continuity-2026-09-29-v1",
+  "date": "2026-09-29",
+  "mode": "supervised_reference_conditioned_generation",
+  "overall_status": "PASS_WITH_HOLDS",
+  "pilot_gate": "not_enabled",
+  "shot_sequence": ["opening", "action", "closing"],
+  "stations": [
+    {"station":"momo","reference_board":"assets/character-boards/momo-moonbeans-board-v1.png","frames":["momo/01-opening.png","momo/02-action.png","momo/03-closing.png"],"status":"provisional_pass"},
+    {"station":"rocket","reference_board":"assets/character-boards/rocket-rivet-board-v1.png","frames":["rocket/01-opening.png","rocket/02-action.png","rocket/03-closing.png"],"status":"provisional_pass"},
+    {"station":"yeti","reference_board":"assets/character-boards/yum-yum-yetis-board-v1.png","frames":["yeti/01-opening.png","yeti/02-action.png","yeti/03-closing.png"],"status":"provisional_pass"},
+    {"station":"doodle","reference_board":"assets/character-boards/doodle-dreamers-board-v1.png","frames":["doodle/01-opening.png","doodle/02-action.png","doodle/03-closing.png"],"status":"provisional_pass"},
+    {"station":"powerpals","reference_board":"assets/character-boards/power-pals-board-v1.png","frames":["powerpals/01-opening.png","powerpals/02-action.png","powerpals/03-closing.png"],"status":"provisional_pass"}
+  ],
+  "not_tested":["animation","shot-to-shot identity during motion","voiceover","captions","exact text compositing","Runway timing","production cost","final owner approval"]
+}
+

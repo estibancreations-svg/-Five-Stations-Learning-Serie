@@ -1,12 +1,12 @@
 # Five Stations creation inventory
 
-Generated UTC: `2026-09-28T21:03:51.942705+00:00`
+Generated UTC: `2026-09-29T01:05:33.516742+00:00`
 
 ## What exists
 
 - `150` episode objects in `episodes.json`.
 - `12` generated prompt text files, including character, all-episode and series/season prompt sets.
-- `39` tracked package files in this inventory scope.
+- `56` tracked package files in this inventory scope.
 - Scripts: `build_catalog.py`, `episode_source.py`, `runway_build_v2.py`, `scripts/build_creation_inventory.py`.
 - Screenplay excerpts present: `True`.
 
@@ -43,7 +43,7 @@ This inventory counts files and records. It does not convert prompts into finish
 | Path | Bytes | SHA-256 |
 |---|---:|---|
 | `.gitignore` | 13 | `32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b` |
-| `README.md` | 10261 | `9b4e1b949a03da1bf0346fabe3d2ca6407a3aa1cfb3aff0151aab2a7d41152db` |
+| `README.md` | 10570 | `54af36a7ea03af00107c7363884e7b300f70c4267c2b112ce0ebd95aef12edf6` |
 | `assets/character-boards/README.md` | 932 | `b5daedd5e08983fd49ba42f0198831f62eb763004fe070727c4073c64be639dd` |
 | `assets/character-boards/doodle-dreamers-board-v1.png` | 2826095 | `1b72ec3124b6033d88336d412b83c7cbbe7ffe7810582a1ccff89ad351a573c8` |
 | `assets/character-boards/momo-moonbeans-board-v1.png` | 2217031 | `456a1c8eb25441a870ce171ebf1c2f44942e633e0ac2df69e6cee0b9d65cdc7d` |
@@ -81,4 +81,21 @@ This inventory counts files and records. It does not convert prompts into finish
 | `test-runs/character-continuity/rocket-test-run-v1.png` | 2520287 | `43f550830a2014ce734f9b03b7cc3b707f75705e84f42eb33d5fc125e474cd53` |
 | `test-runs/character-continuity/test-run-manifest.json` | 2721 | `e1bd0a015d1181e4adfcb51992dfdf5d4ec164992d3fa8715442144f97edb1c5` |
 | `test-runs/character-continuity/yeti-test-run-v1.png` | 2386394 | `e040256b91a74630cefaa158b549d6b551d64f3d13a4757d13964b3ae6639866` |
+| `test-runs/continuity-v1/README.md` | 2284 | `10d01db0c45a2d6e02af03d5e0a86ebd3f6712db051c46d6955bcbb3f736abd5` |
+| `test-runs/continuity-v1/continuity-manifest.json` | 1481 | `912f73a72dae4c9e2ab1a02425c867418a525cdbf9161462877057c94a8e17d5` |
+| `test-runs/continuity-v1/doodle/01-opening.png` | 2827144 | `b72ac45a37786a68a33def62474ef5b0a294b03b192a89bdc4736f7d3b83e352` |
+| `test-runs/continuity-v1/doodle/02-action.png` | 2699261 | `e7dd1b997932b09e4646c2c507f02870a7915297796b18516d657549e99911eb` |
+| `test-runs/continuity-v1/doodle/03-closing.png` | 2841612 | `9e9d11020199e856138ead1113dfe6c0aab0ba6cfe79d1076bccb9aebc68d6c8` |
+| `test-runs/continuity-v1/momo/01-opening.png` | 2557508 | `6c0d66de3795d3c10f24772fa410b46a48c9000fa63250e7067aff9cf436c257` |
+| `test-runs/continuity-v1/momo/02-action.png` | 2453257 | `aaab29b25cd8983b33f4b068004a1abbfd29379e0536b69e0e10b6f50de4bf79` |
+| `test-runs/continuity-v1/momo/03-closing.png` | 2402190 | `f0ea2e8a26e662ac0bc630ef0a90b154a600d5db53403022fa0e50fba6e86d10` |
+| `test-runs/continuity-v1/powerpals/01-opening.png` | 2716500 | `52819c6f3097908bad0eb87cc9b771c5abfb8bce0ceea346a4c493557b107a15` |
+| `test-runs/continuity-v1/powerpals/02-action.png` | 2473513 | `857273efbf152f50c65d501f4c33a573ba19c724e9dfc342a71296ddb3e2e0e8` |
+| `test-runs/continuity-v1/powerpals/03-closing.png` | 2521332 | `cdcc05c800c300e502d798c9c21c2ae31ed05eb3727c49cb4b5b67b694cabbd2` |
+| `test-runs/continuity-v1/rocket/01-opening.png` | 2475240 | `cef1fb296475dc05ee5657313f71507c0da57b6dd5231fe5d56b12fb5a6ef3e8` |
+| `test-runs/continuity-v1/rocket/02-action.png` | 2601409 | `f11cdae4cf84c0839801053000ccb8e716d8d2afc8946ba1e863cdcbc320112f` |
+| `test-runs/continuity-v1/rocket/03-closing.png` | 2651670 | `6fdceb30e01ecf1d170edba7ca30fd00abc2f62585948084b629465a5c9b6593` |
+| `test-runs/continuity-v1/yeti/01-opening.png` | 2411057 | `a3d8d78a88bcd8e097b0405a3783da30d16c31d0f47c82c5ebe3aad0f1038132` |
+| `test-runs/continuity-v1/yeti/02-action.png` | 2349758 | `9162da206ddaf83da7c56477942e12121d0d377394c89f4d9da7acd236bd70d9` |
+| `test-runs/continuity-v1/yeti/03-closing.png` | 2283651 | `d76f55598bae610b300e358d36953b73479c16bf96f416b95ee9cc7022b1e90e` |
 

@@ -68,6 +68,8 @@ Run `python3 scripts/build_creation_inventory.py` after any source or generated-
 
 The first supervised calibration run is stored in `test-runs/character-continuity/`. It contains one reference-board-driven still frame per station plus a machine-readable manifest. The run is `PASS_WITH_HOLDS`: it verifies a first visual continuity pass, but does not unlock pilot mode or replace multi-shot, motion, text, audio and owner-review gates.
 
+The next gate is stored in `test-runs/continuity-v1/`. It contains three reference-conditioned frames per station (opening, action, closing) and a continuity manifest. These are provisional passes for visual identity and world consistency; animation and final owner review remain required before pilot mode.
+
 ## Character, lettering and pilot locks
 
 The first-run character boards are in `assets/character-boards/`. Their panel order and approval process are defined in `docs/production/character-board-and-pilot-lock.md`. Exact words, phonemes, numbers, formulas, captions and nameplates use `docs/production/letter-lock-and-exact-text.md`; they are composited and proofread after image generation. Pilot mode can automate repeatable stages after the first run is signed, but it pauses on new characters, exact text, factual claims, failed continuity, rights, cost, safety and final owner approval. ElevenLabs receives only an approved script, pronunciation guide, voice ID and delivery settings.
