@@ -70,3 +70,7 @@ ElevenLabs may produce voiceover after the script, pronunciation guide and voice
 - audio file hash and rights record.
 
 ElevenLabs output is an asset under review. It does not determine the canonical script, lesson wording or character identity.
+
+## Avatar State extension precedence — October 3, 2026
+
+The [animation integration](avatar-state-animation-integration.md) adds the three-board hierarchy, state/coverage manifests, performance/lesson timing and AS-01–AS-28 / CA-01–CA-15. Existing panel order, references, approval status and pause gates remain authoritative. Five-character ensemble sheets do not by themselves satisfy individual full-height coverage. Performance references supplement the three boards; no fourth board is introduced.

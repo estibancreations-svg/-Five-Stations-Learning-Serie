@@ -96,3 +96,7 @@ The delivered package must contain:
 - the owner approval record.
 
 This is the final Quality Control section for the current development package. Its current result is `PASS_WITH_HOLDS`: the 150 source records and 600 prompt count are internally consistent, while finished media, curriculum approval, character locks, rights review and owner approval remain future gates.
+
+## Extended final review — Avatar State and children's animation
+
+Apply the [animation integration](../production/avatar-state-animation-integration.md) criteria AS-01–AS-28 and CA-01–CA-15 when relevant. Attach pinned board/performance/learning/world/camera/event/text/audio versions, provider reference receipts, contact/reaction frames, lesson evidence/explanation/transfer, exact text/phoneme alignment, vehicle/enclosure/aftermath continuity, dependency diffs and cost/retry/handoff records. Mark not-applicable criteria with reasons; missing calibration, curriculum and motion evidence remain explicit holds. This checklist is not a rerun or a new passing production result.

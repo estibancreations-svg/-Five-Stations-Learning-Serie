@@ -82,3 +82,7 @@ The first-run character boards are in `assets/character-boards/`. Their panel or
 - [YouTube kids and family quality principles](https://support.google.com/youtube/answer/10774223).
 - [YouTube Made for Kids FAQ](https://support.google.com/youtube/answer/9684541).
 
+
+## Avatar State and animation extension
+
+See [avatar-state-animation-integration.md](docs/production/avatar-state-animation-integration.md) for the current board/coverage hierarchy, style/grade decisions, teaching beats, perception/contact timing, camera/world continuity and AS/CA acceptance. Reference analysis preserves limited video scope; documentation does not certify animation, curriculum or pilot completion.
