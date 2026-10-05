@@ -1,0 +1,15 @@
+{
+  "repository": "estibancreations-svg/-Five-Stations-Learning-Serie",
+  "scope": "repository integrity plus applicable build or offline production tests",
+  "required_files": [
+    "README.md",
+    "projects/creative-ip/five-stations/episodes.json",
+    "projects/creative-ip/five-stations/docs/production/character-board-and-pilot-lock.md"
+  ],
+  "jsonc_files": [
+    "tsconfig.json",
+    "tsconfig.app.json",
+    "tsconfig.node.json",
+    "deno.json"
+  ]
+}
